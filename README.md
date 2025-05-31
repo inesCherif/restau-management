@@ -94,10 +94,4 @@ Can:
 
 ---
 
-## 🚀 Project Status
-
-✅ Java Desktop App completed  
-📦 Now adding polish and structure
-
----
 
