@@ -36,7 +36,7 @@ resources/
 - UI built using **Java Swing** (JFrame, JPanel, JButton, etc.)
 - No drag-and-drop UI tools
 - **No external libraries**
-- **No database** — All data is stored in text files using `FileReader`, `BufferedReader`, `FileWriter`, etc.
+- **No database** — All data is stored in binary files 
 
 ---
 
