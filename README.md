@@ -21,20 +21,97 @@ resources/
 └── data/       # Data storage files
 ```
 
+
 ## Setup Instructions
 
-1. Ensure you have Java Development Kit (JDK) 8 or higher installed
-2. Clone this repository
-3. Compile and run the project using your preferred Java IDE or command line
+1. Make sure you have Java JDK 8 or above installed.
+2. Clone this repository.
+3. Compile and run the project using your favorite IDE or command line.
 
-## Features
+---
 
-- User authentication (Manager/Client roles)
-- Menu management
-- Order processing
-- Client account management
-- Beautiful Swing-based UI
+## 🔧 Tech Rules (as per course requirements)
 
-## Development Status
+- Built only with **core Java**
+- UI built using **Java Swing** (JFrame, JPanel, JButton, etc.)
+- No drag-and-drop UI tools
+- **No external libraries**
+- **No database** — All data is stored in text files using `FileReader`, `BufferedReader`, `FileWriter`, etc.
 
-🚧 Under active development 
+---
+
+## 👥 User Roles
+
+### 🧑‍💼 Manager (Admin)
+
+Can:
+
+- **Create customer accounts**
+  - Fields: login, password, first name, last name, date of birth, address, phone number
+  - Stored in file
+- **View all customers**
+  - Reads data from file
+- **Delete customer accounts**
+  - Removes customer info from file
+- **Add menu items**
+  - Fields: item name, description, price
+  - Categories: dish, sandwich, salad, dessert, pastry, drink
+  - Stored in file
+- **View menu items**
+  - Loads from file
+- **View all customer orders**
+  - Orders are stored in either per-customer files or one global file
+- **Update order status**
+  - Statuses: Not processed, In preparation, Ready, Out for delivery
+  - Updates status in file
+
+### 👤 Customer (Client)
+
+Can:
+
+- **View the menu**
+  - Loaded from file
+- **Place an order**
+  - Choose delivery type:
+    - Home delivery (with address)
+    - On-site (eat at restaurant)
+    - Take-away
+  - Saved to file
+- **Track order status**
+  - Read status from file
+
+---
+
+## ✨ Features
+
+- Login system with Manager and Client roles
+- Full customer account management
+- Menu creation and viewing
+- Order creation with delivery type options
+- Real-time order tracking with status updates
+- Clean and intuitive Swing-based UI
+- File-based data persistence (no databases used)
+
+---
+
+## 🚀 Project Status
+
+✅ Java Desktop App completed  
+📦 Now adding polish and structure
+
+---
+
+## 🛠 Want to Contribute or Follow Along?
+
+Here’s how we’re building it:
+
+1. First, define a clear class structure
+2. Then, we build each feature step by step:
+   - Complete Java class
+   - Related Swing GUI
+   - File read/write logic
+   - All explained simply and clearly
+3. Wait for feedback before moving on
+
+---
+
