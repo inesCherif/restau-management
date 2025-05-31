@@ -101,17 +101,3 @@ Can:
 
 ---
 
-## 🛠 Want to Contribute or Follow Along?
-
-Here’s how we’re building it:
-
-1. First, define a clear class structure
-2. Then, we build each feature step by step:
-   - Complete Java class
-   - Related Swing GUI
-   - File read/write logic
-   - All explained simply and clearly
-3. Wait for feedback before moving on
-
----
-
